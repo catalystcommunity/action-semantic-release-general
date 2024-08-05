@@ -13,7 +13,7 @@ A simple action that has an option to toggle `include administrators` on branch 
 <!-- start usage -->
 
 ```yaml
-- uses: catalystsquad/action-semantic-release-general@undefined
+- uses: catalystcommunity/action-semantic-release-general@undefined
   with:
     # git token to use for the run
     token: ""
@@ -25,7 +25,7 @@ A simple action that has an option to toggle `include administrators` on branch 
     toggle-admins: ""
 
     # The release configuration to use for the release.
-    # Default: @catalystsquad/release-config-general
+    # Default: @catalystcommunity/release-config-general
     release-config: ""
 
     # Directory to run semantic-release in
@@ -43,7 +43,7 @@ A simple action that has an option to toggle `include administrators` on branch 
 | :---------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------: | :----------: |
 | **`token`**             | git token to use for the run                                                                                                                                                   |                                         |   **true**   |
 | **`toggle-admins`**     | If true, this action will disable the `include administrators` setting in branch protection for this branch, and re-enable it after release. Re-enabling is run using always() |                 `false`                 |  **false**   |
-| **`release-config`**    | The release configuration to use for the release.                                                                                                                              | `@catalystsquad/release-config-general` |  **false**   |
+| **`release-config`**    | The release configuration to use for the release.                                                                                                                              | `@catalystcommunity/release-config-general` |  **false**   |
 | **`working-directory`** | Directory to run semantic-release in                                                                                                                                           |                                         |  **false**   |
 | **`checkout-repo`**     | Whether to checkout the repo at the beginning of the action                                                                                                                    |                 `true`                  |  **false**   |
 
