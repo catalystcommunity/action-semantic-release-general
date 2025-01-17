@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/catalystcommunity/action-semantic-release-general/compare/v1.1.0...v1.1.1) (2025-01-17)
+
+
+### Bug Fixes
+
+* Make cycjimmy/semantic-release-action version configurable, defa… ([#6](https://github.com/catalystcommunity/action-semantic-release-general/issues/6)) ([749b0f6](https://github.com/catalystcommunity/action-semantic-release-general/commit/749b0f6a31d7460778a8b451f442a2c36f6d0e47))
+* move to catalystcommunity ([8c1c97c](https://github.com/catalystcommunity/action-semantic-release-general/commit/8c1c97c1cd8ed6d52359a7935a094ed68c7bd2c9))
+* move to catalystcommunity ([e7c41cc](https://github.com/catalystcommunity/action-semantic-release-general/commit/e7c41cc6c93123d9d7881191e7d1575196521569))
+
 # [1.1.0](https://github.com/catalystcommunity/action-semantic-release-general/compare/v1.0.2...v1.1.0) (2023-12-05)
 
 
